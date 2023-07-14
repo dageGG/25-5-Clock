@@ -1,0 +1,106 @@
+body {
+    background-color: #a2b9bc;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 90vh;
+}
+
+#clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    min-height: 650px;
+    border-radius: 15px;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #878f99, #b2ad7f);
+    box-shadow: 5px 5px 10px #9ac5ca, -5px -5px 10px #9ac5ca;
+}
+
+#title {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+#timer-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 150px;
+    height: 250px;
+}
+
+#break-label {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#break {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#session-label {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#session {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#timer-label {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#start_stop {
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+#reset {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#break-decrement {
+    cursor: pointer;
+}
+
+#break-increment {
+    cursor: pointer;
+}
+
+#session-decrement {
+    cursor: pointer;
+}
+
+#session-increment {
+    cursor: pointer;
+}
